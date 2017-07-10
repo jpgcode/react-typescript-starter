@@ -1,0 +1,25 @@
+{
+  "name": "game-track",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.dev.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^15.0.36",
+    "@types/react-dom": "^15.5.1",
+    "awesome-typescript-loader": "^3.2.1",
+    "html-webpack-plugin": "^2.29.0",
+    "path": "^0.12.7",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "source-map-loader": "^0.2.1",
+    "typescript": "^2.4.1",
+    "webpack": "^3.1.0",
+    "webpack-dev-server": "^2.5.1"
+  }
+}
